@@ -23,5 +23,5 @@ class DetailFragment : Fragment() {
             textView.text = args.sendInfo
         }
     }
-
+    //for DeepLink write this line in manifest : <nav-graph android:value="@navigation/nav_main"/>
 }
